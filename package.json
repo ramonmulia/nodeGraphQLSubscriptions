@@ -1,0 +1,21 @@
+{
+  "name": "graphqlsubscriptions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "graphql": "^0.10.3",
+    "graphql-server-express": "^1.0.0",
+    "graphql-subscriptions": "^0.4.4",
+    "mongoose": "^4.11.0",
+    "nodemon": "^1.17.2",
+    "subscriptions-transport-ws": "^0.8.0"
+  }
+}
